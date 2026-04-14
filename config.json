@@ -1,0 +1,555 @@
+{
+  "_readme": "This file is auto-synced from the Google Sheet by the sync-competitors GitHub Action. Do not edit manually.",
+  "_sheet_id": "1mmyXH3hhw7H_xPNFq2d5x67MwFUhSP_LULeSgczhVqU",
+  "report_date": "April 2026",
+  "global_competitors": {
+    "4D ERP": {
+      "color": "#8b5cf6",
+      "description": "Croatian mid-market ERP"
+    },
+    "A3/Wolters Kluwer": {
+      "color": "#ef4444",
+      "description": "Dominant in Spanish asesorías; A3ERP and A3CON"
+    },
+    "ABACUS": {
+      "color": "#6366f1",
+      "description": "Swiss-developed ERP; leading mid-market solution in CH/FL"
+    },
+    "AFAS": {
+      "color": "#8b5cf6",
+      "description": "Dutch- developed HRM/ERP suite; popular with medium firms"
+    },
+    "Accurate": {
+      "color": "#22c55e",
+      "description": "Popular Indonesian accounting with full DJP compliance"
+    },
+    "Ajur": {
+      "color": "#f97316",
+      "description": "Popular Bulgarian accounting for firms and SMBs"
+    },
+    "Alegra": {
+      "color": "#22c55e",
+      "description": "Cloud SMB accounting with factura electrónica — growing fast"
+    },
+    "Amis (MISA)": {
+      "color": "#22c55e",
+      "description": "Cloud ERP from MISA group with hóa đơn điện tử"
+    },
+    "Aspel": {
+      "color": "#f97316",
+      "description": "Strong SMB suite with CFDI, payroll NOI, and inventory"
+    },
+    "AutoCount": {
+      "color": "#10b981",
+      "description": "Popular Malaysian accounting with MyInvois e-invoice support"
+    },
+    "BAO": {
+      "color": "#f97316",
+      "description": "Latvian accounting software for SMBs"
+    },
+    "BAS (1C)": {
+      "color": "#f97316",
+      "description": "Widely used accounting and ERP in Ukraine"
+    },
+    "BMD": {
+      "color": "#6366f1",
+      "description": "Dominant Austrian accounting software for Steuerberater"
+    },
+    "Bejerman": {
+      "color": "#6366f1",
+      "description": "Mid-market ERP, strong in professional services"
+    },
+    "Bexio": {
+      "color": "#22c55e",
+      "description": "Swiss cloud SMB accounting; rapidly growing with SMB accountants"
+    },
+    "Bsale": {
+      "color": "#22c55e",
+      "description": "Cloud POS/ERP with Uruguayan e-invoicing compliance"
+    },
+    "CCH Axcess": {
+      "color": "#ef4444",
+      "description": "Enterprise tax compliance (Wolters Kluwer); dominant in mid-large CPA firms"
+    },
+    "CONTPAQi": {
+      "color": "#6366f1",
+      "description": "Dominant SMB/mid-market; deep SAT/CFDI integration; near-mandatory for Mexican accountants"
+    },
+    "Caseware": {
+      "color": "#ef4444",
+      "description": "Industry-standard workpapers and financial statement production for CA firms"
+    },
+    "Cegid": {
+      "color": "#6366f1",
+      "description": "Dominant French accountancy software for expertise-comptable cabinet firms"
+    },
+    "Ciel": {
+      "color": "#8b5cf6",
+      "description": "Established Romanian accounting software"
+    },
+    "ClearTax": {
+      "color": "#22c55e",
+      "description": "GST filing and income tax return compliance platform"
+    },
+    "Colppy": {
+      "color": "#06b6d4",
+      "description": "Cloud accounting with AFIP integration, growing SMB adoption"
+    },
+    "Comarch ERP": {
+      "color": "#6366f1",
+      "description": "Dominant Polish ERP with full KSeF and JPK integration"
+    },
+    "Concar": {
+      "color": "#8b5cf6",
+      "description": "Established Peruvian accounting software"
+    },
+    "ContaAzul": {
+      "color": "#22c55e",
+      "description": "Cloud SMB accounting with NF-e, designed for accountants servicing SMBs"
+    },
+    "Contifico": {
+      "color": "#22c55e",
+      "description": "Leading Ecuadorian cloud ERP with full SRI compliance — SMB favourite"
+    },
+    "DATEV": {
+      "color": "#ef4444",
+      "description": "Near-monopoly for German Steuerberater; cooperative-owned; deeply embedded"
+    },
+    "Defontana": {
+      "color": "#06b6d4",
+      "description": "Leading Chilean cloud ERP with full SII/DTE integration"
+    },
+    "Directo": {
+      "color": "#8b5cf6",
+      "description": "Estonian cloud ERP with strong MTA integration"
+    },
+    "Divalto": {
+      "color": "#6366f1",
+      "description": "French ERP with Moroccan localisation"
+    },
+    "Douzone": {
+      "color": "#8b5cf6",
+      "description": "Dominant Korean ERP for mid-large companies"
+    },
+    "ERPNext": {
+      "color": "#10b981",
+      "description": "Open-source growing in tech-forward Kenyan firms"
+    },
+    "Enova": {
+      "color": "#8b5cf6",
+      "description": "Mid-market Polish ERP with KSeF compliance"
+    },
+    "Entersoft": {
+      "color": "#6366f1",
+      "description": "Greek mid-market ERP with myDATA compliance"
+    },
+    "Epsilonnet": {
+      "color": "#8b5cf6",
+      "description": "Greek accounting and ERP for accountants and businesses"
+    },
+    "Exact": {
+      "color": "#06b6d4",
+      "description": "Dutch-developed ERP; dominant NL SMB and mid-market"
+    },
+    "Fast Accounting": {
+      "color": "#8b5cf6",
+      "description": "Established Vietnamese accounting software"
+    },
+    "Fennoa": {
+      "color": "#f97316",
+      "description": "Cloud accounting for Finnish accountants"
+    },
+    "Figured": {
+      "color": "#f97316",
+      "description": "Farm management accounting deeply integrated with Xero for NZ farms"
+    },
+    "Finstat": {
+      "color": "#f97316",
+      "description": "Croatian accounting software"
+    },
+    "Finvalda": {
+      "color": "#10b981",
+      "description": "Cloud accounting for Lithuanian accountancy firms"
+    },
+    "Fortnox": {
+      "color": "#22c55e",
+      "description": "Sweden's leading cloud accounting for SMBs and accountants"
+    },
+    "Freee": {
+      "color": "#06b6d4",
+      "description": "Leading Japanese cloud accounting for SMBs and zeimushoshi (tax agents)"
+    },
+    "Hashavshevet": {
+      "color": "#8b5cf6",
+      "description": "Dominant Israeli accounting for roa hashbon (CPA) firms"
+    },
+    "Helios": {
+      "color": "#ef4444",
+      "description": "Czech mid-market ERP, Asseco subsidiary"
+    },
+    "Holded": {
+      "color": "#06b6d4",
+      "description": "Modern cloud ERP with Spanish compliance; fastest-growing SMB platform"
+    },
+    "IDERA Bizon": {
+      "color": "#6366f1",
+      "description": "Korean SMB accounting with Hometax integration"
+    },
+    "Indy (Georges.tech)": {
+      "color": "#22c55e",
+      "description": "Dedicated French app for auto-entrepreneurs and freelancers; TVA/IS automation"
+    },
+    "Jhaur": {
+      "color": "#8b5cf6",
+      "description": "Leading Taiwanese accounting for kuaiji (accounting) firms"
+    },
+    "Jumis": {
+      "color": "#6366f1",
+      "description": "Leading Latvian accounting for grāmatvežu firms"
+    },
+    "Jurnal (Mekari)": {
+      "color": "#06b6d4",
+      "description": "Leading Indonesian cloud accounting with DJP e-Faktur integration"
+    },
+    "KARAT": {
+      "color": "#8b5cf6",
+      "description": "Dominant Hungarian accounting for könyvelő firms"
+    },
+    "KROS": {
+      "color": "#22c55e",
+      "description": "Slovak accounting and invoicing suite for SMBs"
+    },
+    "Karbon": {
+      "color": "#6366f1",
+      "description": "Gold standard practice management for US CPA/accounting firms"
+    },
+    "Kingdee": {
+      "color": "#ef4444",
+      "description": "China's largest ERP — dominant mid to enterprise market"
+    },
+    "Kingdee Taiwan": {
+      "color": "#ef4444",
+      "description": "Taiwan version of Kingdee with GUI e-invoice"
+    },
+    "Kulcs-Soft": {
+      "color": "#6366f1",
+      "description": "Leading SMB accounting with NAV Online Számla compliance"
+    },
+    "LAUDUS": {
+      "color": "#22c55e",
+      "description": "Chilean SMB accounting with SII integration"
+    },
+    "LIGA:ZAKON": {
+      "color": "#8b5cf6",
+      "description": "Legal and tax reference/reporting system"
+    },
+    "Lexware": {
+      "color": "#f97316",
+      "description": "SMB accounting with ELSTER integration; popular for small Kanzleien"
+    },
+    "Light": {
+      "color": "#6366f1",
+      "description": "Emerging Danish cloud accounting focused on SMB simplicity; modern UX"
+    },
+    "Logo": {
+      "color": "#6366f1",
+      "description": "Turkey's leading ERP and accounting platform"
+    },
+    "M.E.Doc": {
+      "color": "#ef4444",
+      "description": "Dominant Ukrainian tax reporting and e-invoicing software"
+    },
+    "MISA": {
+      "color": "#ef4444",
+      "description": "Dominant Vietnamese accounting and e-invoice software"
+    },
+    "MJS (Miroku Jōhō Service)": {
+      "color": "#8b5cf6",
+      "description": "Established Japanese practice accounting for zeimushoshi firms"
+    },
+    "MYOB": {
+      "color": "#8b5cf6",
+      "description": "Established mid- market Singapore accounting"
+    },
+    "Merit Aktiva": {
+      "color": "#10b981",
+      "description": "Dominant Estonian cloud accounting; widely used by raamatupidajad"
+    },
+    "Microinvest": {
+      "color": "#8b5cf6",
+      "description": "Dominant Bulgarian accounting for small businesses"
+    },
+    "Mikro": {
+      "color": "#f97316",
+      "description": "Popular Turkish SMB accounting and payroll"
+    },
+    "Minimax": {
+      "color": "#06b6d4",
+      "description": "Cloud ERP with Croatian localisation"
+    },
+    "Money S3/S5": {
+      "color": "#6366f1",
+      "description": "Popular Czech SMB and mid-market accounting"
+    },
+    "MoneyForward": {
+      "color": "#22c55e",
+      "description": "Strong cloud accounting and expense management for Japan"
+    },
+    "Mónica": {
+      "color": "#f97316",
+      "description": "Long-standing Ecuadorian SMB accounting"
+    },
+    "NTCS": {
+      "color": "#f97316",
+      "description": "Practice management for Austrian tax Kanzleien"
+    },
+    "Netsis": {
+      "color": "#8b5cf6",
+      "description": "Mid-market Turkish ERP with e-Fatura compliance"
+    },
+    "Netvisor": {
+      "color": "#22c55e",
+      "description": "Strong cloud ERP/accounting for Finnish accountancy firms"
+    },
+    "OMEGA": {
+      "color": "#6366f1",
+      "description": "Dominant Slovak practice software for daňoví poradcovia"
+    },
+    "Odoo": {
+      "color": "#a855f7",
+      "description": "Open-source ERP with Bolivian tax modules"
+    },
+    "Omie": {
+      "color": "#06b6d4",
+      "description": "Leading cloud SMB ERP with NF-e and fiscal automation — very SMB-friendly"
+    },
+    "OnlinePajak": {
+      "color": "#f97316",
+      "description": "Indonesia's dominant tax compliance and e-Faktur platform"
+    },
+    "Oracle": {
+      "color": "#f97316",
+      "description": "Enterprise ERP for large Saudi corporates"
+    },
+    "Osome": {
+      "color": "#10b981",
+      "description": "Singapore-born digital accounting + corporate secretarial; purpose-built for SMBs"
+    },
+    "PE Accounting": {
+      "color": "#6366f1",
+      "description": "Cloud accounting targeted at Swedish accounting firms"
+    },
+    "PHC": {
+      "color": "#6366f1",
+      "description": "Dominant Portuguese accounting for TOC/ROC firms"
+    },
+    "Pantheon": {
+      "color": "#8b5cf6",
+      "description": "Slovenian ERP with strong Serbian presence"
+    },
+    "Pennylane": {
+      "color": "#8b5cf6",
+      "description": "French cloud platform rapidly expanding to Germany; modern UX targeting SMBs"
+    },
+    "Pohoda": {
+      "color": "#8b5cf6",
+      "description": "Dominant Czech accounting for účetní firms"
+    },
+    "Pragma": {
+      "color": "#f97316",
+      "description": "Lithuanian ERP with VMI/i.SAF integration"
+    },
+    "Priority": {
+      "color": "#f97316",
+      "description": "Leading Israeli ERP for mid-market and accounting firms"
+    },
+    "Procountor": {
+      "color": "#6366f1",
+      "description": "Leading Finnish cloud accounting for SMBs and accounting firms"
+    },
+    "Profit Plus": {
+      "color": "#f97316",
+      "description": "Leading Venezuelan ERP with multi- currency and inflation handling"
+    },
+    "QING": {
+      "color": "#6366f1",
+      "description": "Taiwanese accounting with GUI compliance"
+    },
+    "Qonto": {
+      "color": "#06b6d4",
+      "description": "French neobank with integrated invoicing, expense management and accounting connectivity"
+    },
+    "RZL": {
+      "color": "#8b5cf6",
+      "description": "Leading Austrian practice software — tax, wages, accounts"
+    },
+    "Raamat.ee": {
+      "color": "#f97316",
+      "description": "Cloud accounting bureau for Estonian SMBs"
+    },
+    "Rivile": {
+      "color": "#8b5cf6",
+      "description": "Dominant Lithuanian accounting ERP for accountants"
+    },
+    "SAP": {
+      "color": "#ef4444",
+      "description": "Dominant enterprise ERP in Saudi Arabia"
+    },
+    "SAP Business One": {
+      "color": "#ef4444",
+      "description": "Mid-market ERP, manufacturing and distribution"
+    },
+    "SAP China": {
+      "color": "#f97316",
+      "description": "Large enterprise ERP, MNCs in China"
+    },
+    "SQL Account": {
+      "color": "#f97316",
+      "description": "Dominant Malaysian SMB accounting; deep LHDN and MyInvois compliance"
+    },
+    "Saga C": {
+      "color": "#ef4444",
+      "description": "Dominant Romanian accounting for contabili"
+    },
+    "Sage": {
+      "color": "#22c55e",
+      "description": "Strong Spanish market leader — Sage 50 and Sage 200"
+    },
+    "Sage 50": {
+      "color": "#22c55e",
+      "description": "Long-standing SMB accounting with strong Canadian payroll compliance"
+    },
+    "Sage Maroc": {
+      "color": "#22c55e",
+      "description": "Dominant Moroccan accounting for expertise-comptable firms"
+    },
+    "Sigma": {
+      "color": "#6366f1",
+      "description": "Bulgarian accounting suite for счетоводители"
+    },
+    "Siigo": {
+      "color": "#f97316",
+      "description": "Dominant Colombian SMB accounting; deep DIAN integration; #1 for contadores"
+    },
+    "Silverfin": {
+      "color": "#22c55e",
+      "description": "Belgium-born (now Visma) cloud workpapers; rapidly adopted by UK accountants"
+    },
+    "SimplePay": {
+      "color": "#8b5cf6",
+      "description": "Leading South African payroll compliance tool"
+    },
+    "SoftOne": {
+      "color": "#ef4444",
+      "description": "Dominant Greek ERP with full myDATA integration"
+    },
+    "Softland": {
+      "color": "#8b5cf6",
+      "description": "Mid-market ERP, strong Chile and Peru"
+    },
+    "Symfonia": {
+      "color": "#f97316",
+      "description": "Popular Polish accounting for SMBs and accounting bureaus"
+    },
+    "TOConline": {
+      "color": "#22c55e",
+      "description": "Cloud accounting for Portuguese chartered accountants"
+    },
+    "TOTVS": {
+      "color": "#ef4444",
+      "description": "Dominant Brazilian ERP; end-to-end SPED/NF-e compliance"
+    },
+    "Tally Prime": {
+      "color": "#f97316",
+      "description": "Widely used by UAE SMBs — large Indian business community"
+    },
+    "Tango": {
+      "color": "#8b5cf6",
+      "description": "Dominant Argentine ERP with AFIP and inflation adjustment features"
+    },
+    "TaxCycle": {
+      "color": "#6366f1",
+      "description": "Dominant Canadian tax return software; deep CRA integration"
+    },
+    "TaxDown": {
+      "color": "#e11d48",
+      "description": "Basic digital onboarding for individual tax clients; no engagement letter templates for accounting firms"
+    },
+    "TeamSystem": {
+      "color": "#ef4444",
+      "description": "Dominant Italian accounting software for commercialisti"
+    },
+    "Trullion": {
+      "color": "#10b981",
+      "description": "Israeli-founded AI accounting; strong in lease, revenue recognition"
+    },
+    "UltraTax CS": {
+      "color": "#f97316",
+      "description": "Thomson Reuters — top-tier annual return preparation"
+    },
+    "Uniconta": {
+      "color": "#06b6d4",
+      "description": "Cloud ERP built by former e-conomic founders; strong accountant channel"
+    },
+    "Uruware": {
+      "color": "#8b5cf6",
+      "description": "Uruguayan software with DGI CFE integration"
+    },
+    "Vaxi": {
+      "color": "#8b5cf6",
+      "description": "Venezuelan SMB accounting software"
+    },
+    "Visma": {
+      "color": "#8b5cf6",
+      "description": "Nordic giant — Visma eAccounting and Visma Spcs dominant in Sweden"
+    },
+    "Wamo": {
+      "color": "#14b8a6",
+      "description": "No engagement-letter tooling; focused on banking onboarding."
+    },
+    "WinMentor": {
+      "color": "#f97316",
+      "description": "Popular Romanian mid-market accounting and ERP"
+    },
+    "Wolters Kluwer": {
+      "color": "#6366f1",
+      "description": "Dominant Belgian accountancy firms — Codabox, BOB50"
+    },
+    "World Office": {
+      "color": "#8b5cf6",
+      "description": "Mid-market ERP for Colombian accounting firms"
+    },
+    "XUBIO": {
+      "color": "#22c55e",
+      "description": "Cloud accounting with Peruvian e-invoicing compliance"
+    },
+    "Xero": {
+      "color": "#06b6d4",
+      "description": "Cloud accounting platform with growing US presence; strong bank feeds and app ecosystem"
+    },
+    "Yonyou (UFIDA)": {
+      "color": "#8b5cf6",
+      "description": "Second-largest Chinese ERP; strong government and SOE presence"
+    },
+    "Zoho Books": {
+      "color": "#10b981",
+      "description": "Very popular UAE SMB accounting with FTA VAT compliance"
+    },
+    "Zucchetti": {
+      "color": "#8b5cf6",
+      "description": "Major Italian ERP and payroll suite; very strong in SMB mid- market"
+    },
+    "e- conomic": {
+      "color": "#10b981",
+      "description": "Dominant Danish cloud accounting; used by most revisor firms"
+    },
+    "e-conomic": {
+      "color": "#10b981",
+      "description": "Dominant Danish cloud accounting; used by most revisor firms"
+    },
+    "ecount ERP": {
+      "color": "#22c55e",
+      "description": "Cloud Korean ERP with Hometax compliance"
+    }
+  }
+}
