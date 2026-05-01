@@ -1,0 +1,98 @@
+# .github/workflows/weekly-friday-refresh.yml
+#
+# Runs every Friday at 8:00 AM PDT (15:00 UTC).
+# During PST (Nov–Mar) this runs at 7:00 AM PT.
+#
+# What this does:
+#   1. Updates the "Last updated: YYYY-MM-DD" badge in index.html
+#   2. Commits + pushes to main → triggers Pages rebuild
+#   3. Calls the Pages rebuild API as a failsafe
+#
+# Competitor list sync is done separately via Claude + Google Drive MCP.
+# No secrets required beyond the auto-provided GITHUB_TOKEN.
+
+name: Weekly Friday Refresh
+
+on:
+  schedule:
+    - cron: '0 15 * * 5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-badge-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update last-updated badge in index.html
+        run: |
+          python3 - <<'PY'
+          import pathlib, re, datetime
+
+          TODAY     = datetime.date.today().isoformat()
+          HTML_PATH = pathlib.Path("index.html")
+
+          if not HTML_PATH.exists():
+              print("::warning::index.html not found")
+              raise SystemExit(0)
+
+          html = HTML_PATH.read_text(encoding="utf-8")
+
+          OPEN  = "<!-- PC_LAST_UPDATED_START -->"
+          CLOSE = "<!-- PC_LAST_UPDATED_END -->"
+
+          badge = (
+              f"{OPEN}"
+              '<div style="position:fixed;bottom:12px;right:16px;'
+              'background:#1e3a5f;color:#fff;font-size:11px;padding:4px 12px;'
+              'border-radius:12px;font-family:-apple-system,sans-serif;'
+              'opacity:0.7;z-index:9999;pointer-events:none;">'
+              f"Updated {TODAY}"
+              f"</div>{CLOSE}"
+          )
+
+          if OPEN in html:
+              html = re.sub(re.escape(OPEN) + ".*?" + re.escape(CLOSE),
+                            badge, html, flags=re.DOTALL)
+              print(f"Badge updated → {TODAY}")
+          elif "</body>" in html:
+              html = html.replace("</body>", f"\n  {badge}\n</body>")
+              print(f"Badge injected → {TODAY}")
+          else:
+              print("::warning::No </body> found — badge skipped")
+
+          HTML_PATH.write_text(html, encoding="utf-8")
+          PY
+
+      - name: Commit badge update
+        run: |
+          git config user.name  "project-confidence-bot"
+          git config user.email "project-confidence-bot@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet \
+            && echo "::notice::No change" \
+            || git commit -m "chore: weekly refresh $(date -u +%Y-%m-%d)"
+
+      - name: Push to main
+        run: git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Trigger GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST \
+            -H "Accept: application/vnd.github+json" \
+            /repos/${{ github.repository }}/pages/builds \
+          && echo "::notice::Pages rebuild triggered." \
+          || echo "::notice::Non-zero from Pages API (normal for Actions-source deploys)."
